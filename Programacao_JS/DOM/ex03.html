@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+    <script type="text/javascript" src="js/ex03.js"></script>
+    <style>
+        #resultadoAbaixo{
+            color: blue;
+        }
+        #resultadoNormal{
+            color: green;
+        }
+        #resultadoAcima{
+            color: yellow;
+        }
+        #resultadoObeso{
+            color: red;
+        }
+    </style>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <button><a href="index.html">Voltar</a></button>
+    <H1>Exercicio 3</H1>
+    <p>Crie um novo documento HTML onde o usuário deve entrar o peso e altura e o programa deve exibir o IMC. Dependendo da faixa do IMC deve informar se o usuário está abaixo do peso, peso normal, sobrepeso, obesidade mórbida. Desafio extra: Apresente as informações em cores azul para abaixo do peso, verde peso normal, sobrepeso amarlo e obesidade vermelho</p>
+    <p>
+        <label for="peso">Digite seu peso:</label>
+        <input type="text" id="peso">
+        <label for="altura">Digite sua altura:</label>
+        <input type="text" id="altura"><br>
+        <input type="button" value="calcular" id="btnCalcular" onclick="calcular()">
+        <div id="resultadoAbaixo"></div>
+        <div id="resultadoNormal"></div>
+        <div id="resultadoAcima"></div>
+        <div id="resultadoObeso"></div>
+    </p>
+</body>
+</html>

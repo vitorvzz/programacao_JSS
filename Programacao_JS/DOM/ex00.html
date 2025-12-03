@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM e formularios</title>
+    <script type="text/javascript" src="js/ex00.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <button><a href="index.html">Voltar</a></button>
+    <h1>DOM e formularios</h1>
+    <h2>DOM</h2>
+    <p>DOM - Data Object Model é uma API(Aplication programing interface) que visa simplificar a forma de acessar a estrutura de um documento HTML. Facilitando criar, modificar, adicionar, retirar e manipular elementos do HTML</p>
+
+    <h2>Formulários</h2>
+    <p>São elementos HTMl que possibilita a interação do usuário com a página web. Como exemplo temos caixas de texto, botões, caixas de seleção dentre outros. As tags form, label, input, sao tags de elementos de formularios.</p>
+
+    <h2>Exemplo</h2>
+    <p>Contrua uma interface para que sejam digitados dois numeros e somados.</p>
+
+    <p>
+        <label for="primeiroValor">Digite o Valor:</label>
+        <input type="text" id="primeiroValor">
+        <br>
+        <label for="segundoValor">Digite o Valor:</label>
+        <input type="text" id="segundoValor">
+        <br>
+        <input type="button" id="btnSomar" value="somar" onclick="somar()">
+        <input type="button" id="btnSub" value="subtrair" onclick="sub()">
+        <input type="button" id="btnMulti" value="Multiplicar" onclick="multi()">
+        <input type="button" id="btnDiv" value="divisao" onclick="div()">
+        <div id="resultadoSoma"></div><br>
+        <div id="resultadoSub"></div><br>
+        <div id="resultadoMulti"></div><br>
+        <div id="resultadoDiv"></div><br>
+    </p>
+</body>
+</html>
